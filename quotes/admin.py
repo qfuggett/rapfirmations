@@ -1,7 +1,5 @@
 from django.contrib import admin
-from .models import Quote
-from .models import Author
-from .models import AuthorPhoto
+from .models import Author, AuthorPhoto, Quote
 
 
 admin.site.register(AuthorPhoto)
